@@ -35,8 +35,8 @@ if (strlen($fname) > 50) {
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'chickenhotdog423@gmail.com';
-    $mail->Password = 'Chicken1234'; // Replace with your Gmail password
+    $mail->Username = '';
+    $mail->Password = ''; // Replace with your Gmail password
     $mail->SMTPSecure = 'tls'; // Corrected
     $mail->Port = 587;
 
